@@ -16,6 +16,16 @@ TOKEN=your_telegram_bot_token
 AUTHORIZED_USERS=123456789,987654321
 ```
 
+Allowing only authorized users to access your bot is crucial for security and functionality. If you prefer to allow anyone to use your bot, you can leave the `AUTHORIZED_USERS` variable empty in the `.env` file or take the if condition out in the bot's python script.
+
+To get your Telegram user ID, follow these steps:
+
+1. Open Telegram and search for the bot `@userinfobot`.
+2. Start a chat with the bot by clicking the "Start" button.
+3. The bot will reply with your user information, including your user ID.
+
+Use this user ID to add yourself to the `AUTHORIZED_USERS` list in the `.env` file.
+
 ## Installation
 
 To install the dependencies required for this project, run the following command:
