@@ -70,6 +70,6 @@ This script will handle the creation and configuration of the necessary systemd 
 
 Below is an example of how to interact with the bot on Telegram:
 
-![Interaction Example](fotos/telegram_bot_screenshot.png)
+![Interaction Example](photos/telegram_bot_screenshot.png)
 
 Ensure that your Telegram user ID is included in the `AUTHORIZED_USERS` list in the `.env` file to interact with the bot.
